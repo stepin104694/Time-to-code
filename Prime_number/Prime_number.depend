@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1597337502 source:c:\books\ltts\programming in c and unit testing\time to code\prime_number\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1597067615 source:c:\books\ltts\programming in c and unit testing\time to code\prime_number\unity\unity.c
+	"unity.h"
+	<stddef.h>
+	<avr/pgmspace.h>
+
+1597067615 c:\books\ltts\programming in c and unit testing\time to code\prime_number\unity\unity.h
+	"unity_internals.h"
+
+1597067615 c:\books\ltts\programming in c and unit testing\time to code\prime_number\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1597340266 source:c:\books\ltts\programming in c and unit testing\time to code\prime_number\src\prime_number.c
+	"prime_number.h"
+
+1597338118 c:\books\ltts\programming in c and unit testing\time to code\prime_number\inc\prime_number.h
+	<stdio.h>
+
+1597341139 source:c:\books\ltts\programming in c and unit testing\time to code\prime_number\test\test_prime_number.c
+	"unity.h"
+	"prime_number.h"
+
