@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1597067615 source:c:\books\ltts\programming in c and unit testing\time to code\break_into_substring\unity\unity.c
+	"unity.h"
+	<stddef.h>
+	<avr/pgmspace.h>
+
+1597067615 c:\books\ltts\programming in c and unit testing\time to code\break_into_substring\unity\unity.h
+	"unity_internals.h"
+
+1597067615 c:\books\ltts\programming in c and unit testing\time to code\break_into_substring\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1597350425 source:c:\books\ltts\programming in c and unit testing\time to code\break_into_substring\src\break_string.c
+	"break_string.h"
+
+1597350091 c:\books\ltts\programming in c and unit testing\time to code\break_into_substring\inc\break_string.h
+	<stdio.h>
+	<string.h>
+
+1597351356 source:c:\books\ltts\programming in c and unit testing\time to code\break_into_substring\test\test_break_string.c
+	"unity.h"
+	"break_string.h"
+
