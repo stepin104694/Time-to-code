@@ -1,0 +1,38 @@
+#include "break_string.h"
+
+char** break_string(char sen[])
+{
+    int k=0,r=10,c=15;
+    int word_count=0;
+    char tempstr[25]={0};
+    char **arrstr = (char **)calloc(r,sizeof(char *));
+    for(int i=0;i<r;i++)
+      arrstr[i] = (char*)calloc(c,sizeof(char));
+    for(int i=0;k<strlen(sen);i++)
+    {
+        for(int j=0;sen[k]!='\0';j++)
+        {
+            if(sen[k] == '_')
+            {
+                tempstr[j] ='\0';k++;
+                //printf("\n");
+                break;
+            }
+            else
+            {
+
+              tempstr[j]=sen[k];//printf("%c",str[i]);
+              k++;
+            }
+        }
+        strcpy(arrstr[i],tempstr);
+        strcpy(tempstr,"\0");
+        word_count++;
+    }
+    for(int i=0;i<word_count;i++)
+    {
+      printf("%s\n",arrstr[i]);
+    }
+    free(arrstr);
+    return arrstr;
+}
