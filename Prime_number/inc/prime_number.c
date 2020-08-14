@@ -4,7 +4,7 @@ int prime_number(int number)
 {
     /**
     *Prime numbers can't be divided by other numbers than itself or 1
-    *for loop is used to check the reminder of given number is 0 when divided with 2
+    *for loop is used to check the reminder of given number is 0
     */
     for(int i=2;i<=number/2;i++)
     {
