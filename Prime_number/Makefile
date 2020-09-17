@@ -1,6 +1,6 @@
 	
 # Name of the project
-PROJECT_NAME = Prime number
+PROJECT_NAME = PRIMENUMBER
 
 # Output directory
 BUILD = build
@@ -33,7 +33,7 @@ all: $(SRC) $(BUILD)
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+	./$(PROJECT_OUTPUT)
 
 # Document the code using Doxygen
 doc:
