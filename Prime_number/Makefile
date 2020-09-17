@@ -6,7 +6,7 @@ INC = -Iunity\
 -Iinc\
 -Itest
 
-PROJECT_NAME = PRIMENUMBER.exe
+PROJECT_NAME = PRIMENUMBER.out
 
 # Output directory
 BUILD = build
