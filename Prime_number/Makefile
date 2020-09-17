@@ -22,3 +22,5 @@ run:$(PROJECT_NAME)
 
 clean:
 	rm -rf $(PROJECT_NAME)
+$(BUILD):
+	mkdir build
